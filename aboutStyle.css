@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Header Navgation Css Start From Here*/
+header{
+    background-color: #2FA73B;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    padding: 30px 10px;
+    text-decoration: none;
+    color:white;
+    
+}
+header a:hover{
+    background-color: #79b480;
+}
+header img{
+    margin-left:30px;
+}
+
+header i{
+   position: absolute;
+   left:0px;
+   padding: 20px;
+   color:white;
+   font-size: 24px;
+   font-weight: bold;
+   display:none !important;
+}
+@media (min-width:768px){
+    header a{
+        display:block !important;
+    }
+}
+@media (max-width:768px){
+    header a{
+        display:none;
+    }
+    header i {
+        display: inline-block !important;
+    }
+}
+/* header style end here  */
+
+.firstBanner img{
+    width:100vw;
+
+}
+.intro{
+    background-image: url('images/banner1\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    text-align: center;
+    padding: 10px 20%;
+    line-height: 35px;
+}
+.vision{
+    background-color: #E42823;
+    color:white;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.vision div{
+    padding: 30px;
+}
+
+.startingPoint{
+    background-color: #2FA73B;
+    color:white;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.startingPoint div{
+    padding: 30px;
+    width: 45%;
+    line-height: 40px;
+}
+.goals{
+    background-image: url('images/banner3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    text-align: right;
+    padding: 10px 20%;
+    color:white;
+    font-size: 18px;
+    line-height: 40px;   
+}
+.goals h4{
+    color: #2FA73B;
+}
+.bigtrends{
+    background-image: url('images/banner4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    text-align: right;
+    padding: 10px 20%;
+    color:black;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+footer{
+    color:white;
+    background-color: black;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+footer span{
+    margin-left:10%;
+}
+footer span i {
+    padding: 1rem;
+}

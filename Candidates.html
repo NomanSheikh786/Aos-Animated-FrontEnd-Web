@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CandidatesStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+
+    <header data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <i class="fas fa-bars"></i>
+        <a href="#none">THE VOICE OF HOMELAND</a>
+        <a href="#home">POLLING PLACES</a>
+        <a href="#news">THE PROGRAM</a>
+        <a href="#contact">CANDIDATES</a>
+        <a href="#about">WHO WE ARE</a>
+        <img  src="images/logo.PNG" alt="image not show" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+    </header>
+
+    <main>
+        <section class="firstBanner" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <img src="images/banner1.jpg" alt="">
+        </section>
+
+        <section class="contentImage">
+
+        </section>
+
+
+        <section class="candidateCards">
+
+            <div class="row1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+               <div>
+                <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p>Mohammad Samir Jabour</p>
+               </div>
+               <div>
+                <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p>Mohammad Samir Jabour</p>
+               </div>
+               <div>
+                <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p>Mohammad Samir Jabour</p>
+               </div>
+               <div>
+                <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p>Mohammad Samir Jabour</p>
+               </div>
+            </div>
+            <div class="row2" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div>
+                    <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <p>Mohammad Samir Jabour</p>
+                   </div>
+                   <div>
+                    <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <p>Mohammad Samir Jabour</p>
+                   </div>
+                   <div>
+                    <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <p>Mohammad Samir Jabour</p>
+                   </div>
+                   <div>
+                    <img src="images/person.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <p>Mohammad Samir Jabour</p>
+                   </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <h5>Copyright 2020. All Rights Reserved. | POWERED BY Graphert | Privacy Policy | Term of use. </h5>
+        <span>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+        </span>
+    </footer>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("header i").click(function () {
+                if ($(this).hasClass("fa-bars")) {
+                    $(this).removeClass("fa-bars");
+                    $(this).addClass("fa-times");
+                    $("header a").css('display', 'block');
+                    $("header").css('flex-direction', 'column');
+                } else {
+                    $(this).removeClass("fa-times");
+                    $(this).addClass("fa-bars");
+                    $("header a").css('display', 'none');
+                    $("header").css('flex-direction', 'row');
+                }
+
+            });
+
+
+        });
+    </script>
+
+
+<script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>
