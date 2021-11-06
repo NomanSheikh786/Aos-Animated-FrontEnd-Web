@@ -46,31 +46,39 @@ header i{
     header i {
         display: inline-block !important;
     }
+    .contact{
+        flex-direction: column;
+    }
 }
 /* header style end here  */
+
+.main{
+    width: 100%;
+    overflow: hidden;
+}
 
 .contact{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    width: 100%;
 }
 .LeftSideImage{
     background-image: url('images/contact-side.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 550px;
-    flex: 1;
+    min-height: 550px;
+    width: 100%;
 }
 .contactForm{
     background-image: url('images/contact--us-back.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 550px;
-    /* width: 50%; */
-    flex: 1;
+    min-height: 450px;
+    width: 100%;
     padding: 20px;
+    /* text-align:center; */
 }
 
   /* Full-width input fields */
@@ -101,7 +109,7 @@ header i{
     background-image: url('images/banner-2.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
     margin-top: 15px;
 }
 .sBanner{
@@ -115,7 +123,7 @@ header i{
     flex-wrap: wrap;
 }
 .sContent{
-    margin: 20px;
+    padding: 20px;
     width:50%;
 }
 .sContent h2{

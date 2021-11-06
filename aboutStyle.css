@@ -46,8 +46,20 @@ header i{
     header i {
         display: inline-block !important;
     }
+    .vision img{        
+        width: 40%;
+    }
+    .startingPoint img{
+        width: 50%;
+    }
 }
 /* header style end here  */
+
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+
 
 .firstBanner img{
     width:100vw;
